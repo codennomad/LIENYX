@@ -1,0 +1,13 @@
+moviepy
+faster-whisper
+python-dotenv
+pytube
+Pillow
+langchain-openai
+langchain-core
+python-telegram-bot
+langchain
+selenium
+aiofiles
+yt-dlp
+loguru

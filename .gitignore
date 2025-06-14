@@ -1,43 +1,54 @@
-# Diretórios Python
+# Python
 __pycache__/
-.mypy_cache/
-.noctivox_cache/
-.noctivox_env/
-
-# Logs
-*.log
-logs/
-
-# Ambiente virtual
-.env
-*.env
-noctivox_env
-venv
-
-# Credenciais e tokens
-client_secrets.json
-token.pickle
-
-# Arquivos temporários e binários
 *.pyc
 *.pyo
 *.pyd
-*.mkv
-*.mp4
-*.wav
-*.tmp
+.Python/
+env/
+venv/
+*.env  
+.env
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+htmlcov/
+.nox/
+.ipynb_checkpoints
+.spyderproject
+.spyproject
+venv
 
-# Arquivos de sistema
-.DS_Store
-Thumbs.db
+# Logs
+_logs/ 
 
-# Arquivos de output/resultados
-processing_report.txt
-system_prompt.json
+# Downloads e Saídas do Bot
+_downloads_telegram/ 
+_audios/             
+_transcriptions/     
+_notes/              
 
-# Jupyter (caso você adicione notebooks depois)
-.ipynb_checkpoints/
+# Dados do faster-whisper
+.cache/huggingface/ 
 
-# PyCharm/VSCode (se usar)
-.idea/
+# Selenium 
+_downloads_whats/   
+profile/wpp/         
+
+# IDEs
 .vscode/
+.idea/ # PyCharm
+*.iml # IntelliJ IDEA (similar ao PyCharm)
+
+# Sistema Operacional
+.DS_Store # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+Desktop.ini # Windows
