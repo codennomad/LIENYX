@@ -53,15 +53,13 @@ Antes de começar, certifique-se de ter o seguinte instalado:
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [https://github.com/SeuUsuario/Lienyx.git](https://github.com/SeuUsuario/Lienyx.git) # Substitua pelo seu link
-    cd "Lienyx"
+    git clone https://github.com/codennomad/LIENYX.git
     ```
 2.  **Crie e Ative o Ambiente Virtual:**
     É altamente recomendável usar um ambiente virtual para isolar as dependências do projeto.
     ```bash
     python -m venv venv
-    .\venv\Scripts\activate # No Windows
-    # source venv/bin/activate # No Linux/macOS
+    .\venv\Scripts\activate 
     ```
 3.  **Instale as Dependências Python:**
     Com o ambiente virtual ativado, instale as bibliotecas necessárias.
@@ -108,12 +106,11 @@ Com tudo configurado, você pode iniciar o bot:
 
 1.  **Navegue até a Raiz do Projeto:**
     ```bash
-    cd "E:\Obsidian - notas" # Ou o caminho para a sua pasta principal do projeto
+    cd "E:\Obsidian - notas" 
     ```
 2.  **Ative o Ambiente Virtual:**
     ```bash
-    .\venv\Scripts\activate # No Windows
-    # source venv/bin/activate # No Linux/macOS
+    .\venv\Scripts\activate 
     ```
 3.  **Inicie o Bot:**
     ```bash
