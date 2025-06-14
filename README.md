@@ -6,7 +6,9 @@
 
 ## 🌟 Sobre o LIENYX
 
-![Persona do Projeto LIENYX](assets/lienyx.png)
+<p align="center">
+  <img src="assets/lienyx.png" alt="Persona do Projeto LIENYX" width="500px"/>
+</p>
 
 LIENYX é um assistente de inteligência artificial projetado para automatizar a criação de notas detalhadas a partir de conteúdo multimídia. Integrado com o Telegram, ele permite que você envie links de vídeos do YouTube, arquivos de vídeo ou imagens, e ele se encarrega de processar o conteúdo e gerar notas estruturadas no formato Markdown, perfeitas para serem usadas no Obsidian ou em qualquer outro editor de Markdown.
 
